@@ -4,8 +4,8 @@ from tweepy import OAuthHandler
 from tweepy import Stream
 #import argparse
 import sys
-
-print 'code name is: ',sys.argv[0]
+import os
+print 'code name is: ',sys.argv[0] #in this name code name is twiter_streaming.py
 
 if len(sys.argv) > 1:
     filename=sys.argv[1]
